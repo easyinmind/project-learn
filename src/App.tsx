@@ -8,4 +8,6 @@ export default () => {
   //   console.log(res)
   // })
   return <div>test</div>;
+
+  var a = 1
 };
