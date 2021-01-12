@@ -1,5 +1,5 @@
 {
-  "path": "./node_modules/cz-conventional-changelog",
+  "path": "./scripts/cz-conventional-changelog",
   "disableScopeLowerCase": false,
   "disableSubjectLowerCase": false,
   "maxHeaderWidth": 100,
