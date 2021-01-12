@@ -116,7 +116,7 @@ module.exports = function(options) {
               filteredSubject.length <= maxSummaryLength(options, answers)
                 ? chalk.green
                 : chalk.red;
-            return color('(' + filteredSubject.length + '字) ' + subject);
+            return color('(' + filteredSubject.length + ' 个字) ' + subject);
           },
           filter: function(subject) {
             return filterSubject(subject, options.disableSubjectLowerCase);
@@ -197,7 +197,7 @@ module.exports = function(options) {
         };
 
         // parentheses are only needed when a scope is present
-        var scope = answers.scope ? '(1' + answers.scope + '2)' : '';
+        var scope = answers.scope ? '(' + answers.scope + ')' : '';
 
         // Hard limit this line in the validate
         var head = answers.type + scope + ': ' + answers.subject;
