@@ -2,14 +2,15 @@ import React from "react";
 import { add } from "./tools/tool";
 import "./app.less";
 
-export default () => {
+const App = () => {
   add();
   // import('./tools/tool').then(res => {
   //   console.log(res)
   // })
-  var a = '1'
-  console.log(a)
+
+  const a = "111";
+  console.log(a);
+
   return <div>test</div>;
-
-
 };
+export default App;
