@@ -1,0 +1,58 @@
+{
+  "path": "./node_modules/cz-conventional-changelog",
+  "disableScopeLowerCase": false,
+  "disableSubjectLowerCase": false,
+  "maxHeaderWidth": 100,
+  "maxLineWidth": 100,
+  "defaultType": "",
+  "defaultScope": "",
+  "defaultSubject": "",
+  "defaultBody": "",
+  "defaultIssues": "",
+  "types": {
+    "feat": {
+      "description": "新增某产品功能 （代码、工程层面的不算）",
+      "title": "Features"
+    },
+    "fix": {
+      "description": "修复了一个产品功能 bug （代码、工程层面的不算）",
+      "title": "Bug Fixes"
+    },
+    "docs": {
+      "description": "文档的变更（如修改 README）",
+      "title": "Documentation"
+    },
+    "style": {
+      "description": "不改变代码含义的变动 (如删除空格、格式化等。和 CSS 样式无关。)",
+      "title": "Styles"
+    },
+    "refactor": {
+      "description": "重构代码。不包括 bug 修复、新增功能",
+      "title": "Code Refactoring"
+    },
+    "perf": {
+      "description": "性能优化",
+      "title": "Performance Improvements"
+    },
+    "test": {
+      "description": "添加、修改测试用例",
+      "title": "Tests"
+    },
+    "build": {
+      "description": "构建流程、外部依赖变更，比如升级 npm 包、修改 webpack 配置",
+      "title": "Builds"
+    },
+    "ci": {
+      "description": "修改了 CI 配置、脚本",
+      "title": "Continuous Integrations"
+    },
+    "chore": {
+      "description": "不影响 src 下面的文件或测试用例的变更",
+      "title": "Chores"
+    },
+    "revert": {
+      "description": "回滚 commit",
+      "title": "Reverts"
+    }
+  }
+}
