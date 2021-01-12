@@ -7,7 +7,9 @@ export default () => {
   // import('./tools/tool').then(res => {
   //   console.log(res)
   // })
+  var a = '1'
+  console.log(a)
   return <div>test</div>;
 
-  var a = 1
+
 };
