@@ -1,1 +1,1 @@
-### 基于cz-conventional-changelog 3.3.0, 误动
+### 基于 cz-conventional-changelog 3.3.0 调整翻译, 误动
