@@ -5,7 +5,7 @@ const { srcPath, rootPath } = require("./paths");
 
 module.exports = {
   entry: path.join(srcPath, "index.tsx"),
-  
+
   module: {
     rules: [
       {

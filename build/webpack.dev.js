@@ -35,7 +35,7 @@ module.exports = merge(base, {
       //     "/api2": "",
       //   },
       // },
-    },
+    }
   },
   module: {
     rules: [
@@ -46,21 +46,21 @@ module.exports = merge(base, {
           {
             loader: "css-loader",
             options: {
-              importLoaders: 2,
+              importLoaders: 2
               // modules: true
-            },
+            }
           },
           "postcss-loader",
-          "less-loader",
-        ],
+          "less-loader"
+        ]
       },
       {
         test: /\.(png|jpg|jpeg|gif)$/,
-        use: "file-loader",
+        use: "file-loader"
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
-        use:  "file-loader",
+        use: "file-loader"
       },
       {
         test: /\.css$/,
@@ -69,19 +69,19 @@ module.exports = merge(base, {
           {
             loader: "css-loader",
             options: {
-              importLoaders: 1,
-            },
+              importLoaders: 1
+            }
           },
-          "postcss-loader",
-        ],
-      },
-    ],
+          "postcss-loader"
+        ]
+      }
+    ]
   },
   plugins: [
     // 开启 热更新
     new webpack.HotModuleReplacementPlugin(),
     new webpack.DefinePlugin({
-      ENV: JSON.stringify("development"),
-    }),
-  ],
+      ENV: JSON.stringify("development")
+    })
+  ]
 });
